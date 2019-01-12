@@ -27,8 +27,13 @@ public class GithubRepoRepository {
         this.request = new GithubRequests();
     }
 
-    public void getRepos(String repoUserName){
 
+    //for task #3, below method will become two methods: queryDb() and fetchRepos(),
+    //first queryDb() will be called to query db and get data from it and fetchRepos()
+    // will be called as well to update persisted data and it will notify queryDb()
+    // to post updated data to UI via callback
+
+    public void getRepos(String repoUserName){
         asyncTask = new AsyncTask<String, Void, Void>() {
             private ArrayList<RepoModel> repos;
 

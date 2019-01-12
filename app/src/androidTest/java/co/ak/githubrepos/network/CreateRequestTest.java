@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 
 import co.ak.githubrepos.network.io.SCHttpRequest;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
