@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Github Repo List</string>
+    <string name="enter_name">Enter a github username</string>
+    <string name="go">Go!</string>
+    <string name="repo_name">Repo name: </string>
+    <string name="description">Description: </string>
+    <string name="fork_counts">Fork Count:</string>
+    <string name="language"> Language: </string>
+    <string name="last_commit">last commit ...</string>
+    <string name="no_result_msg"> No result! Possibilities: username is invalid, user has no public repos or you hit the request rate-limit </string>
+</resources>
